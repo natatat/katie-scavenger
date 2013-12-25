@@ -7,14 +7,14 @@
 
   body {
     margin:0 auto;
-    font-size:20pt;
+    font-size:26pt;
     font-family:Belgrano;
     background:rgba(255,255,255,0.7);
   }
 
   #container {
     width:auto;
-    padding:2em 1em 2em 1em;
+    padding:1.5em .5em 1.5em .5em;
     text-align:center;
   }
 
@@ -32,8 +32,9 @@
   }
 
   input[type=submit] {
-    font-size:.6em;
+    font-size:.5em;
     color:white;
+    font-weight: bold;
     padding:5px 15px;
     background:#c0392b;
     border:0 none;
