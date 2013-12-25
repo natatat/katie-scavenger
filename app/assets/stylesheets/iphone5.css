@@ -1,0 +1,39 @@
+@media only screen and (min-width: 560px) and (max-device-width: 1136px) {
+  html {
+   background-image:url('nolamap.png');
+   background-size:cover;
+  }
+
+  body {
+   margin:0 auto;
+   font-size:26pt;
+   font-family:Belgrano;
+   background:rgba(255,255,255,0.7);
+  }
+
+  #container {
+   padding:2em 1em 2em 1em;
+   text-align:center;
+  }
+
+  .clue {
+   padding-bottom:.5em;
+  }
+
+  .haiku {
+   font-size: 18pt;
+  }
+
+  img {
+   padding-bottom:.5em;
+  }
+
+  input[type=submit] {
+   font-size:.6em;
+   color:white;
+   padding:5px 15px; background:#c0392b; border:0 none;
+   cursor:pointer;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+  }
+}
