@@ -15,6 +15,7 @@
   }
 
   #container {
+   width:auto;
    padding:2em 1em 2em 1em;
    text-align:center;
   }
@@ -27,8 +28,9 @@
    font-size: .7em;
   }
 
-  img {
+  .liznat {
    padding-bottom:.5em;
+   width:150px;
   }
 
   input[type=submit] {
