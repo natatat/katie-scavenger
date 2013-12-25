@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: katie-scavenger_development
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: katie-scavenger_test
+  pool: 5
