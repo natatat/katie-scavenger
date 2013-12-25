@@ -6,7 +6,7 @@
 
   body {
    margin:0 auto;
-   font-size:26pt;
+   font-size:48pt;
    font-family:Belgrano;
    background:rgba(255,255,255,0.7);
   }
@@ -21,7 +21,7 @@
   }
 
   .haiku {
-   font-size: 18pt;
+   font-size: .7em;
   }
 
   img {
