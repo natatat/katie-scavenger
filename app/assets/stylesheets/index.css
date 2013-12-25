@@ -11,6 +11,7 @@ body {
 }
 
 #container {
+  height:480px;
   padding:2em 1em 2em 1em;
   text-align:center;
 }
@@ -30,8 +31,11 @@ img {
 input[type=submit] {
   font-size:.6em;
   color:white;
-  padding:5px 15px; background:#c0392b; border:0 none;
+  padding:5px 15px;
+  background-color:#c0392b;
+  border:0 none;
   cursor:pointer;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
