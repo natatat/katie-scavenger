@@ -6,3 +6,4 @@ gem 'sass-rails', '~> 4.0.0'
 
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'uglifier'
