@@ -1,5 +1,5 @@
 <div class="clue">
-  Hey. Merry Christmas. We made you a scavenger hunt because two (three?) can play this game.
+  <%= @first_clue.text %>
 </div>
 
-<%= button_to "Get started.", selfish_path, method: :get %>
+<%= button_to @first_clue.button_text, clue_path(@first_clue.id + 1), method: :get %>
