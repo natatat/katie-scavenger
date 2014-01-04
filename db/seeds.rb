@@ -23,7 +23,29 @@ clues = [{ text: "Good morning! What a DAY you have ahead of you. Slip into your
          { text: "Nailed it!",
            button_text: "What's next?" },
          { text: "This next clue may be corny, but we want to give you the hole scavenger hunt experience. Get where we're going with this...?",
-           button_text: "Heading there as we speak!" }]
+           button_text: "Heading there as we speak!" },
+         { text: "God. Look at that BRUNCH menu. Sounds like the perfect meal to have after a rough night out, when I've done things I regret and need to tackle plan b. (At least I'm getting laid though, amiright?) What should I eat? - Liz",
+           button_text: "Got it."},
+         { text: "MATH CHALLENGE!\n\n( [Liz's age] x [# of people Liz has slept with] - 3 x [the numbers of letters in this item] + [the number of apartments Liz and Natalie looked at in SF] ) / ( 2 x [# of houses your family has] ) =",
+           button_text: "I think I have it?",
+           answer: "13.1" },
+         { text: "See where we're going with this?!",
+           button_text: "Yes." },
+         { text: "Go to the finish line.",
+           button_text: "I'm on my way." },
+         { text: "Where are you?",
+           button_text: "Square",
+           answer: "SOMETHING" },
+         { text: "Great! Now go check out that statue over there. Is it made out of Bronze or Clay? Either way, this person is best known for his ability to negotiate. When did his hallmark achievement happen?",
+           button_text: "Easy.",
+           answer: "1850" },
+         { text: "You're so smart! You should have been a history teacher :) Now let's do something kinda nutty. (We promise it'll be sweet though!)",
+           button_text: "Alright. Tell me more..." },
+         { text: "Now let's see how good you really are with names, Katie. And Google stalking. Liz's boss at the White House went to which college? _____ University at Somewhere.",
+           button_text: "I'm just that good.",
+           answer: "Washington" },
+         { text: "Washington University at Saint Louis is correct! Now go to that street. Confused? Pull out a map and look North East. The intersection you're heading to is a sweet combination of holy and royal. Now use Yelp. Where would Liz go if she found herself in your shoes right now? The place where she could get pralines,",
+           button_text: "of course!" }]
 
 clues.each do |clue|
   Clue.create(text: clue[:text], button_text: clue[:button_text], answer: clue[:answer])
