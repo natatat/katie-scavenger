@@ -57,7 +57,7 @@ clues = [{ text: "Good morning! What a DAY you have ahead of you. Slip into your
            answer: "6" },
          { text: "Now hopefully it doesn't get lost en Root.",
            button_text: "I'm hungry." },
-         { text: "(If it's 6:45) it's probably time for you to rest your feet with a seat anyway. You know you're in the right place if you're lolling about it as much as we are.",
+         { text: "If it's exactly 6:45 you should sit down and rest your weary feet. You know you're in the right place if you're lolling about it as much as we are.",
            button_text: "We're here!",
            answer: "Root" }]
 
