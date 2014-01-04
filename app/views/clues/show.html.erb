@@ -1,16 +1,21 @@
-<div class="clue">
-  <%= @clue.text %>
-</div>
+<% if @clue %>
+  <div class="clue">
+    <%= @clue.text %>
+  </div>
 
-<% if @clue.answer %>
-  <%= form_for @clue, as: :clue, url: check_answer_path(@clue), method: :post do |f| %>
-    <%= f.text_field :answer, value: "" %><br/>
-    <% if flash[:error] %>
-      <%= f.submit flash[:error] %>
-    <% else %>
-      <%= f.submit @clue.button_text %>
+  <% if @clue.answer %>
+    <%= form_for @clue, as: :clue, url: check_answer_path(@clue), method: :post do |f| %>
+      <%= f.text_field :answer, value: "" %><br/>
+      <% if flash[:error] %>
+        <%= f.submit flash[:error] %>
+      <% else %>
+        <%= f.submit @clue.button_text %>
+      <% end %>
     <% end %>
+  <% else %>
+    <%= button_to @clue.button_text, clue_path(@clue.id + 1), method: :get %>
   <% end %>
+
 <% else %>
-  <%= button_to @clue.button_text, clue_path(@clue.id + 1), method: :get %>
+  You did it!<br/>Dinner's on us!<br/><br/>merry xmas!<br/>love, nat & liz
 <% end %>
