@@ -31,8 +31,19 @@
     width:250px;
   }
 
+  input[type=text] {
+    font-size:.6em;
+    width:8em;
+    text-align: center;
+    font-weight: bold;
+    padding:5px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+
   input[type=submit] {
-    font-size:.5em;
+    font-size:.47em;
     color:white;
     font-weight: bold;
     padding:5px 15px;
