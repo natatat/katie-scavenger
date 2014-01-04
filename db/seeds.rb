@@ -52,9 +52,14 @@ clues = [{ text: "Good morning! What a DAY you have ahead of you. Slip into your
            answer: "23.93" },
          { text: "What a great gift this would make.",
            button_text: "I totally agree." },
-         { text: "Elizabeth Mills\n2230 Bryant St.\nSan Francisco, CA 94110\n\nDon't forget the apartment number!",
+         { text: "Elizabeth Mills\n2230 Bryant St.\nSan Francisco, CA 94110.\n\nDon't forget the apartment number!",
            button_text: "Sent.",
-           answer: "6" }]
+           answer: "6" },
+         { text: "Now hopefully it doesn't get lost en Root.",
+           button_text: "I'm hungry." },
+         { text: "(If it's 6:45) it's probably time for you to rest your feet with a seat anyway. You know you're in the right place if you're lolling about it as much as we are.",
+           button_text: "We're here!",
+           answer: "Root" }]
 
 clues.each do |clue|
   Clue.create(text: clue[:text], button_text: clue[:button_text], answer: clue[:answer])

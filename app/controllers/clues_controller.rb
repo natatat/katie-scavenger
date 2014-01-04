@@ -4,7 +4,7 @@ class CluesController < ApplicationController
   end
 
   def show
-    if params[:id].to_i < 18
+    if params[:id].to_i < 23
       @clue = Clue.find(params[:id])
     end
   end
