@@ -1,25 +1,9 @@
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 
-  html {
-    background-image:url('nolamap.png');
-    background-size:cover;
-  }
-
-  body {
-    margin:0 auto;
-    font-size:26pt;
-    font-family:Belgrano;
-    background:rgba(255,255,255,0.7);
-  }
-
   #container {
     width:auto;
     padding:1.5em .5em 1.5em .5em;
     text-align:center;
-  }
-
-  .clue {
-    padding-bottom:.5em;
   }
 
   .haiku {
@@ -29,17 +13,6 @@
   .liznat {
     padding-bottom:.5em;
     width:250px;
-  }
-
-  input[type=text] {
-    font-size:.6em;
-    width:8em;
-    text-align: center;
-    font-weight: bold;
-    padding:5px;
-    -webkit-appearance: none;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
   }
 
   input[type=submit] {
