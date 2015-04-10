@@ -1,9 +1,6 @@
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-
   #container {
-    width:auto;
-    padding:1.5em .5em 1.5em .5em;
-    text-align:center;
+    width: 90%;
   }
 
   .haiku {
@@ -11,20 +8,6 @@
   }
 
   .liznat {
-    padding-bottom:.5em;
-    width:250px;
-  }
-
-  input[type=submit] {
-    font-size:.47em;
-    color:white;
-    font-weight: bold;
-    padding:5px 15px;
-    background:#c0392b;
-    border:0 none;
-    cursor:pointer;
-    -webkit-appearance: none;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+    width: 250px;
   }
 }
